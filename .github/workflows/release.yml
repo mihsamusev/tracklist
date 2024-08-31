@@ -29,8 +29,8 @@ jobs:
       - name: Upload binaries
         uses: actions/upload-artifact@v3
         with:
-          name: myapp-${{ matrix.goos }}-${{ matrix.goarch }}
-          path: myapp-${{ matrix.goos }}-${{ matrix.goarch }}
+          name: tracklist-${{ matrix.goos }}-${{ matrix.goarch }}
+          path: tracklist-${{ matrix.goos }}-${{ matrix.goarch }}
 
   release:
     needs: build
