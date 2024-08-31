@@ -8,7 +8,7 @@ After:
 ![](docs/after.png)
 
 ## How to use
-Build for your OS, or grab from [Releases]() and use as a command line
+Build for your OS, or grab from [Releases](https://github.com/mihsamusev/tracklist/releases) and use as a command line
 ```bash
  build -o tracklist
 ./tracklist recordbox.cue 
