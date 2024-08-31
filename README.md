@@ -1,8 +1,13 @@
 ## Tracklist
 Read tracklist from your DJ software in YouTube friendly format
 
-## How to use
+Before:
+![](docs/before.png)
 
+After:
+![](docs/after.png)
+
+## How to use
 Build for your OS, or grab from [Releases]() and use as a command line
 ```bash
  build -o tracklist
