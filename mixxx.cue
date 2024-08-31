@@ -8,4 +8,7 @@ FILE "2024-02-27_19h49m50s.wav" WAVE
     PERFORMER ""
     INDEX 01 02:35:56
   TRACK 03 AUDIO
-    TITLE "Edlan — Notice [DELETEME]
+    TITLE "Edlan — Notice [DELETEME]"
+    PERFORMER ""
+    INDEX 01 03:35:56
+
