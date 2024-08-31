@@ -42,9 +42,13 @@ jobs:
         with:
           path: ./artifacts
 
+      - name: List files in artifacts directory
+        run: ls -al ./artifacts
+
       - name: Create Release
         uses: softprops/action-gh-release@v1
         with:
           files: ./artifacts/*
+          fail_on_unmatched_files: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
