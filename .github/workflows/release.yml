@@ -43,12 +43,12 @@ jobs:
           path: ./artifacts
 
       - name: List files in artifacts directory
-        run: ls -al ./artifacts
+        run: ls -alR ./artifacts
 
       - name: Create Release
         uses: softprops/action-gh-release@v1
         with:
-          files: ./artifacts/*
+          files: ./artifacts/tracklist-*-amd64/*
           fail_on_unmatched_files: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
